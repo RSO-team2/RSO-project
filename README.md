@@ -5,25 +5,25 @@ Implementation of cloud-native application
 - [ ] Frontend
   - [ ] Login screen
   - [ ] Ordering screen
-  - [ ] Displayin orders screen
+  - [ ] Display in orders screen
   - [ ] ...
 
 - [ ] Order management
   - [ ] Storing in database
   - [ ] (Producer) Event sender
-  - [ ] (Consumer) Recieves events and produces updates
+  - [ ] (Consumer) Receives events and produces updates
 
 - [ ] Reservation management
   - [ ] Storing in database
   - [ ] (Producer) Event sender
-  - [ ] (Consumer) Recieves events and produces updates
+  - [ ] (Consumer) Receives events and produces updates
 
-- [ ] Serverless function
+- [ ] Server-less function
 - [ ] External API integration
 
 ## Others
 - [ ] Helm Charts
-- [ ] Centralized logging (stdout, stderr, stdwarn) dashboard
+- [ ] Centralized logging (`stdout`, stderr, `stdwarn`) dashboard
 - [ ] Centralized metrics (uptime, resources, etc.) dashboard
 - [ ] Health check endpoints
 - [ ] Multitenancy
@@ -44,3 +44,20 @@ Service Completion Checklist
   - [ ] CI/CD Pipeline
   - [ ] Cloud deployment
 ```
+---
+> TA MEETING TAKEAWAYS
+
+Recommended microservices:
+- User Management Microservice
+- Notification Microservice
+- Order Management Microservice
+- Reservation Management Microservice
+
+Guidelines:
+- Message function isn't meant for frontend
+- Plug-and-play tools are permitted (even encouraged)
+- Implementation of message passing can be demonstrative, that is not crucial for the projects functionalities, as long as it's well explained.
+- Server-less function and external API can be combined together (implemented in the same part of the project, e.g. geolocation API).
+- It's good to use an external API that requires authentication via an API key.
+- README's are supposed to be deployment and use-case documentation and license.
+- API documentation done via Swagger or OpenAPI automatically.
