@@ -9,7 +9,7 @@ Implementation of cloud-native application
   - [ ] ...
 
 - [ ] Order management
-  - [ ] Storing in database
+  - [x] Storing in database
   - [ ] (Producer) Event sender
   - [ ] (Consumer) Receives events and produces updates
 
@@ -23,7 +23,7 @@ Implementation of cloud-native application
 
 ## Others
 - [ ] Helm Charts
-- [ ] Centralized logging (`stdout`, stderr, `stdwarn`) dashboard
+- [ ] Centralized logging (`stdout`, `stderr`, `stdwarn`) dashboard
 - [ ] Centralized metrics (uptime, resources, etc.) dashboard
 - [ ] Health check endpoints
 - [ ] Multitenancy
@@ -33,16 +33,15 @@ Implementation of cloud-native application
 ---
 > NOTE: The below points should be taken care of for every service, API endpoint, etc.
 ```
-Service Completion Checklist
-- [ ] Repository management (for each service seperately).
-  - [ ] Documentation (specific documentation)
-    - [ ] Input's and outputs
-    - [ ] Types management
-  - [ ] READMEs (general documentation)
-    - [ ] Purpouse
-    - [ ] Use-cases
-  - [ ] CI/CD Pipeline
-  - [ ] Cloud deployment
+Service Completion Checklist (for each service seperately)
+- [ ] Documentation (specific documentation)
+  - [ ] Input's and outputs
+  - [ ] Types management
+- [ ] READMEs (general documentation)
+  - [ ] Purpouse
+  - [ ] Use-cases
+- [ ] CI/CD Pipeline
+- [ ] Cloud deployment
 ```
 ---
 > TA MEETING TAKEAWAYS
