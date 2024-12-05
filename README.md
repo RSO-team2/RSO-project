@@ -1,5 +1,5 @@
 # RSO-project
-Implementation of cloud-native application
+Implementation of cloud-native application for ordering food and making reservations in restaurants. 
 
 ## Services Checklist
 - [ ] Frontend
