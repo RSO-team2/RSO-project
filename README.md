@@ -10,6 +10,9 @@ The application consists of four microservices. The requirements and specifics a
 - restaurant-management: A microservice for managing reservations. Users can create new reservations at their desired restaurants and view their past and active reservations on their profile. The microservice also enables restaurants to review current reservations in their establishments. 
 - reservation-management: A microservice for managing restaurants. This microservice handles the addition of new restaurants, dishes, and menus.
 
+## Database
+Database is PostgreSQL database, hosted on Digital Ocean. More information about the database and its tables is available in database_setup repository.
+
 ## CI/CD Pipeline
 The appication is running on Digital Ocean Kubernetes cluster. The testing and deployments have been automated trough Github Actions. 
 
