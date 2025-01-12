@@ -24,8 +24,8 @@ The application also implements three serverless functions that call to external
 - Metrics are scraped via Prometheus and displayed in Grafana 
 
 # Links
-[Web application](king-prawn-app-iog8u.ondigitalocean.app) (HTTP request must be enabled in browser)
-[Prometheus](http://67.207.78.243/)
+[Web application](king-prawn-app-iog8u.ondigitalocean.app) (HTTP request must be enabled in browser)\
+[Prometheus](http://67.207.78.243/)\
 Grafana: needs to be configured via CLI `kubectl port-forward svc/grafana 80:80` so it runs on `localhost:80` 
 
 
