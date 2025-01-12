@@ -16,7 +16,7 @@ The appication is running on Digital Ocean Kubernetes cluster. The testing and d
 ## Serverless functions
 The application also implements three serverless functions that call to external APIs:
 - geolocation: Retrieves users location from users ip using [ip-api API](https://ip-api.com/)
-- SMTP: Sends an email to the user using [mailsender](https://www.mailersend.com/)
+- SMTP: Sends an email to the user when order status is changed using [mailsender](https://www.mailersend.com/)
 - Distance calculator: Calculates distance between two adresses by calling [Google distance matrix API](https://developers.google.com/maps/documentation/distance-matrix/overview)
 
 ## Metrics and health
